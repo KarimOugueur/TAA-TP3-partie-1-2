@@ -1,1 +1,0 @@
-package tp3.partie1.repositories;import tp3.partie1.model.Provider;import org.springframework.data.jpa.repository.JpaRepository;public interface ProviderRepository extends JpaRepository<Provider, Long> {}
