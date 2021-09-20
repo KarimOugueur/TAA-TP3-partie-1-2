@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 public class Bank implements IBank {
 
-
     @Override
     public void transfert(double amount, String clientAccount, String accountMagasin) {
 

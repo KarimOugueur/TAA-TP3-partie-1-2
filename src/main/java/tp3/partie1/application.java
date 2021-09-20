@@ -10,9 +10,9 @@ import tp3.partie1.client.IRun;
 
 import java.util.logging.Logger;
 @SpringBootApplication
-public class Partie1Application implements CommandLineRunner {
+public class application implements CommandLineRunner {
 
-    private static final Logger logger = Logger.getLogger(Partie1Application.class.getName());
+    private static final Logger logger = Logger.getLogger(application.class.getName());
 
     @Autowired
     private IRun irun;
@@ -24,7 +24,7 @@ public class Partie1Application implements CommandLineRunner {
     }
     public static void main(String[] args) {
 
-        SpringApplication.run(Partie1Application.class, args);
+        SpringApplication.run(application.class, args);
     }
 
 
