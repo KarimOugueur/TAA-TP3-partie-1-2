@@ -1,0 +1,1 @@
+package service;import model.Item;public interface IFastLane {    public void oneShotOrder(Item item, int amount);}

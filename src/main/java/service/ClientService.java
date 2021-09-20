@@ -1,0 +1,1 @@
+package service;import model.Client;public interface ClientService {    public Client saveClient(Client client);    public void updateClient(Long id, Client client);}

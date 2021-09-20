@@ -1,0 +1,1 @@
+package service;import model.Account;public interface IBank {    public void transfer(double amount, Account account1, Account account2) ;}

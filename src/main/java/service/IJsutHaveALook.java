@@ -1,0 +1,1 @@
+package service;import model.Item;public interface IJsutHaveALook {    public float getPrice(Item item);    public boolean isAvailable(Long itemId);}

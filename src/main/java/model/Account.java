@@ -1,0 +1,1 @@
+package model;import lombok.Data;import javax.persistence.*;@Entity@Datapublic class Account {    @Id    private Long Id;    private int number;    private double solde;}

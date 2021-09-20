@@ -1,0 +1,1 @@
+package service;import model.Item;import java.util.List;public interface IProvider {    public float getPrice(Item item);    public void order(Item item, int amount);}
