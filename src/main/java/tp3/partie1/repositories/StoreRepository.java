@@ -1,0 +1,1 @@
+package tp3.partie1.repositories;import tp3.partie1.model.Store;import org.springframework.data.jpa.repository.JpaRepository;public interface StoreRepository extends JpaRepository<Store, Long> {}

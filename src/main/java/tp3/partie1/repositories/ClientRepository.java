@@ -1,0 +1,1 @@
+package tp3.partie1.repositories;import org.springframework.data.jpa.repository.JpaRepository;import tp3.partie1.service.IClient;public interface ClientRepository  extends JpaRepository<IClient, Long> {}

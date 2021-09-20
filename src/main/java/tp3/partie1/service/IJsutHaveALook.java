@@ -1,0 +1,1 @@
+package tp3.partie1.service;public interface IJsutHaveALook {    public double getPrice (Long itemiD);    public boolean isAvailable(Long itemId);}

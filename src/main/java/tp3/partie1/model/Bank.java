@@ -1,27 +1,23 @@
-package model;
+package tp3.partie1.model;
 
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.metadata.HsqlTableMetaDataProvider;
-import org.springframework.stereotype.Component;
-import service.IBank;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import org.springframework.stereotype.Component;
+
+import tp3.partie1.service.IBank;
+
 
 @Component
 @Data
 public class Bank implements IBank {
 
-
-
     @Autowired
-    IBank iBank;
+    private IBank iBank;
 
     @Override
-    public void transfer(double amount, Account clientAccount, Account accountMagasin) {
+    public void transfert(double amount, Account clientAccount, Account accountMagasin) {
 
         if(amount>0){
             double soldeAccount1= clientAccount.getSolde();
@@ -30,6 +26,5 @@ public class Bank implements IBank {
             double soldeAccountMagasin = accountMagasin.getSolde();
             accountMagasin.setSolde(soldeAccountMagasin+amount);
         }
-
     }
 }

@@ -1,0 +1,1 @@
+package tp3.partie1.repositories;import tp3.partie1.model.User;import org.springframework.data.jpa.repository.JpaRepository;public interface UserRepository  extends JpaRepository<User, Long> {}

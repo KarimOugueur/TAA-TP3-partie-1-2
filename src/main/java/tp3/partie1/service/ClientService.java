@@ -1,0 +1,1 @@
+package tp3.partie1.service;import tp3.partie1.model.Client;public interface ClientService {    public IClient saveClient(IClient client);    public void updateClient(Long id, Client client);}

@@ -1,0 +1,1 @@
+package tp3.partie1.model;import lombok.Data;import org.springframework.stereotype.Component;import javax.persistence.*;@Component@Datapublic class Account {    @Id    @GeneratedValue(strategy = GenerationType.IDENTITY)    private Long Id;    private int number;    private double solde;}

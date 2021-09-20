@@ -1,0 +1,1 @@
+package tp3.partie1.service;import tp3.partie1.model.Product;public interface IFastLane {    public void oneShotOrder(Product item, int amount);}
