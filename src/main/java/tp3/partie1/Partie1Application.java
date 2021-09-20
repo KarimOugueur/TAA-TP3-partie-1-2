@@ -2,9 +2,12 @@ package tp3.partie1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import tp3.partie1.service.IRun;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import tp3.partie1.client.IRun;
+
 import java.util.logging.Logger;
 @SpringBootApplication
 public class Partie1Application implements CommandLineRunner {

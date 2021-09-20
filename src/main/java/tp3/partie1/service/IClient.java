@@ -1,1 +1,0 @@
-package tp3.partie1.service;public interface IClient {}

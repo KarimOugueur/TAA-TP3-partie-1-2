@@ -1,1 +1,0 @@
-package tp3.partie1.service;import tp3.partie1.model.Account;public interface IBank {    public void transfert(double amount, Account account1, Account account2) ;}
