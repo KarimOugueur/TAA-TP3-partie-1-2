@@ -11,9 +11,11 @@ import org.springframework.stereotype.Component;
 public class SecureApp {
     
 	public void log(ProceedingJoinPoint joinPoint) throws Throwable{
-
 		System.err.println("****LoggingAspect- Before bank method call");  
+		
+		//allows us to call the method designated by the cut
 		joinPoint.proceed();
+		
 		System.err.println("****LoggingAspect- After bank method call");  
 	}
 }
