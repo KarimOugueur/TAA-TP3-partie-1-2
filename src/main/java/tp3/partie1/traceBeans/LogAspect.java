@@ -15,10 +15,10 @@ import org.springframework.stereotype.Component;
 public class LogAspect {
 
 	
-	@Pointcut("execution (public * tp3.partie1.*Service..*(..))")
+	@Pointcut("execution (public * tp3.partie1.*..*(..))")
 	public void methodCall() {}
 
-	@Before("execution(public * tp3.aprtie1..*(..))")
+	@Before("execution(public * tp3.partie1..*(..))")
 	public void log(JoinPoint joinPoint){
 		System.err.println("calling : " + joinPoint.getTarget().getClass().getName() + " -> " + joinPoint.getSignature().getName());  
     }
