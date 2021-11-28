@@ -1,5 +1,9 @@
 # TAA-TP3 partie 2 
 
+# Binôme : 
+  - Karim OUGUEUR
+  - Arnaud YAO AKOTO
+
 # Partie 1 : Injection de dépendances
 L'objectif de cette première partie est de prendre en main le framework Spring et de maîtriser le processus de développement et de déploiement à l'aide de Spring.
 
