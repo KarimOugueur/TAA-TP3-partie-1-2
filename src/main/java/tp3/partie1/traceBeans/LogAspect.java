@@ -29,7 +29,7 @@ public class LogAspect {
 	 */
 
 	@AfterThrowing(pointcut = "methodCall()", throwing = "e")
-	public void log(JoinPoint joinPoint, Throwable exception) {
+	public void logExec(JoinPoint joinPoint, Throwable exception) {
 	  System.out.printf("Retour de %s avec une exception %s%n",
 						joinPoint.toShortString(),
 						exception.getClass().getSimpleName());
