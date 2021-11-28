@@ -7,7 +7,7 @@
 # Partie 1 : Injection de dépendances
 L'objectif de cette première partie est de prendre en amin le framework Spring et de maîtriser le processus de développement et de déploiement à l'aide de Spring.
 
-pour cette parte 1, nous avions développé des classes comme c'était demandé dans le sujet( client, Irun, Store, Bank etc...), et nous avions également rajouté les injections de dépendances entre classes avec l'annotation <span style="color:red"> *@Autowired* text</span>. 
+pour cette parte 1, nous avions développé des classes comme c'était demandé dans le sujet( client, Irun, Store, Bank etc...), et nous avions également rajouté les injections de dépendances entre classes avec l'annotation <span style="color:blue"> *@Autowired*</span>. 
 
 # Partie 2. Spring AOP :
 
