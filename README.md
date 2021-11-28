@@ -1,17 +1,19 @@
-# TAA-TP3 partie 2 
+# TAA-TP3 partie 1 et 2
+
+# Binôme : 
+	- Karim OUGUEUR
+	- Arnaud Yao Akoto 
 
 # Partie 1 : Injection de dépendances
-L'objectif de cette première partie est de prendre en amin le fraimwork 
-spring et de maitiser le prossus de développement et de déploiement à l'aide de Spring.
+L'objectif de cette première partie est de prendre en amin le framework Spring et de maîtriser le processus de développement et de déploiement à l'aide de Spring.
 
-pour cette partei, nous avions développé des classes comme cc'était demandé dans le sujet
-et nous avions également rajouté les injections de dépendances entre classes avec l'annotation @Autowired. 
+pour cette parte 1, nous avions développé des classes comme c'était demandé dans le sujet( client, Irun, Store, Bank etc...), et nous avions également rajouté les injections de dépendances entre classes avec l'annotation <span style="color:red">@Autowired text</span>. 
 
 # Partie 2. Spring AOP :
 
-Pour cette deuxème partie, nousa avons créé une classe logBeans pour les logs. 
+Pour cette deuxième partie, nous avons créé une classe LogBeans pour les logs. 
 
-le code de la classe SecureApp est le suivant : 
+le code de la classe LogAspect est le suivant : 
 
 ```java
 @Aspect
@@ -41,6 +43,6 @@ public class LogAspect {
     
 }
 ```
-La focntion log nous permet d'avoir la tarace d'exécution. 
+La fonction log nous permet d'avoir la trace d'exécution. 
 
 Nous n'avons pas fini la parie sécurité, mais nous avons quand même regardé les videos. 
